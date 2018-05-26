@@ -1,0 +1,305 @@
+object_list:
+- arm_name: right
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S6
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 6
+    - 1
+    - 0
+  - snacks
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.42845359444618225
+      y: -0.33665210008621216
+      z: 0.7512404322624207
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: right
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S8
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 8
+    - 1
+    - 0
+  - biscuits
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.5899415612220764
+      y: -0.21947413682937622
+      z: 0.7046429514884949
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S4
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 4
+    - 1
+    - 0
+  - book
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.4934226870536804
+      y: 0.08381950110197067
+      z: 0.7265619039535522
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: right
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S4
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 4
+    - 1
+    - 0
+  - soap
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.6791032552719116
+      y: 0.005756250116974115
+      z: 0.675510585308075
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S6
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 6
+    - 1
+    - 0
+  - eraser
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.6075752973556519
+      y: 0.2828572392463684
+      z: 0.6468348503112793
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: right
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S5
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 5
+    - 1
+    - 0
+  - soap2
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.4551229178905487
+      y: -0.044607702642679214
+      z: 0.6756095886230469
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S6
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 6
+    - 1
+    - 0
+  - eraser
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.43904298543930054
+      y: 0.21651868522167206
+      z: 0.6821040511131287
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: !!python/object/apply:numpy.core.multiarray.scalar
+  - !!python/object/apply:numpy.dtype
+    args:
+    - S4
+    - 0
+    - 1
+    state: !!python/tuple
+    - 3
+    - '|'
+    - null
+    - null
+    - null
+    - 4
+    - 1
+    - 0
+  - glue
+  pick_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0.6118252277374268
+      y: 0.14180515706539154
+      z: 0.6813406944274902
+  place_pose:
+    orientation:
+      w: 0
+      x: 0
+      y: 0
+      z: 0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
