@@ -1,21 +1,6 @@
 object_list:
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S6
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 6
-    - 1
-    - 0
-  - snacks
+  object_name: snacks
   pick_pose:
     orientation:
       w: 0
@@ -23,9 +8,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.42845359444618225
-      y: -0.33665210008621216
-      z: 0.7512404322624207
+      x: 0.42892971634864807
+      y: -0.33570608496665955
+      z: 0.7498632073402405
   place_pose:
     orientation:
       w: 0
@@ -38,22 +23,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 8
-    - 1
-    - 0
-  - biscuits
+  object_name: biscuits
   pick_pose:
     orientation:
       w: 0
@@ -61,9 +31,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5899415612220764
-      y: -0.21947413682937622
-      z: 0.7046429514884949
+      x: 0.5891674757003784
+      y: -0.2192070633172989
+      z: 0.7041187882423401
   place_pose:
     orientation:
       w: 0
@@ -76,22 +46,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - book
+  object_name: book
   pick_pose:
     orientation:
       w: 0
@@ -99,9 +54,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.4934226870536804
-      y: 0.08381950110197067
-      z: 0.7265619039535522
+      x: 0.49285513162612915
+      y: 0.08366011828184128
+      z: 0.726494312286377
   place_pose:
     orientation:
       w: 0
@@ -114,22 +69,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - soap
+  object_name: soap
   pick_pose:
     orientation:
       w: 0
@@ -137,9 +77,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.6791032552719116
-      y: 0.005756250116974115
-      z: 0.675510585308075
+      x: 0.6797014474868774
+      y: 0.0049668168649077415
+      z: 0.6750470399856567
   place_pose:
     orientation:
       w: 0
@@ -152,22 +92,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S6
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 6
-    - 1
-    - 0
-  - eraser
+  object_name: eraser
   pick_pose:
     orientation:
       w: 0
@@ -175,9 +100,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.6075752973556519
-      y: 0.2828572392463684
-      z: 0.6468348503112793
+      x: 0.6077758073806763
+      y: 0.28343579173088074
+      z: 0.6469466090202332
   place_pose:
     orientation:
       w: 0
@@ -190,22 +115,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S5
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 5
-    - 1
-    - 0
-  - soap2
+  object_name: soap2
   pick_pose:
     orientation:
       w: 0
@@ -213,9 +123,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.4551229178905487
-      y: -0.044607702642679214
-      z: 0.6756095886230469
+      x: 0.45500820875167847
+      y: -0.0442606657743454
+      z: 0.6752532124519348
   place_pose:
     orientation:
       w: 0
@@ -228,22 +138,7 @@ object_list:
       z: 0.605
   test_scene_num: 3
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S6
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 6
-    - 1
-    - 0
-  - eraser
+  object_name: sticky_notes
   pick_pose:
     orientation:
       w: 0
@@ -251,9 +146,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.43904298543930054
-      y: 0.21651868522167206
-      z: 0.6821040511131287
+      x: 0.4396200478076935
+      y: 0.21726703643798828
+      z: 0.6810786724090576
   place_pose:
     orientation:
       w: 0
@@ -265,23 +160,8 @@ object_list:
       y: 0.71
       z: 0.605
   test_scene_num: 3
-- arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - glue
+- arm_name: right
+  object_name: snacks
   pick_pose:
     orientation:
       w: 0
@@ -289,9 +169,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.6118252277374268
-      y: 0.14180515706539154
-      z: 0.6813406944274902
+      x: 0.6118244528770447
+      y: 0.1427445262670517
+      z: 0.6821930408477783
   place_pose:
     orientation:
       w: 0
@@ -300,6 +180,6 @@ object_list:
       z: 0
     position:
       x: 0
-      y: 0.71
+      y: -0.71
       z: 0.605
   test_scene_num: 3

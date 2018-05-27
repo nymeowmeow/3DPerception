@@ -1,21 +1,6 @@
 object_list:
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 8
-    - 1
-    - 0
-  - biscuits
+  object_name: biscuits
   pick_pose:
     orientation:
       w: 0
@@ -23,9 +8,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5424345135688782
-      y: -0.24243716895580292
-      z: 0.7057997584342957
+      x: 0.5423814058303833
+      y: -0.24263092875480652
+      z: 0.7061169743537903
   place_pose:
     orientation:
       w: 0
@@ -38,22 +23,7 @@ object_list:
       z: 0.605
   test_scene_num: 1
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - soap
+  object_name: soap
   pick_pose:
     orientation:
       w: 0
@@ -61,9 +31,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5428441762924194
-      y: -0.019208131358027458
-      z: 0.6747987270355225
+      x: 0.5434850454330444
+      y: -0.01954057440161705
+      z: 0.6749900579452515
   place_pose:
     orientation:
       w: 0
@@ -76,22 +46,7 @@ object_list:
       z: 0.605
   test_scene_num: 1
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S5
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 5
-    - 1
-    - 0
-  - soap2
+  object_name: soap2
   pick_pose:
     orientation:
       w: 0
@@ -99,9 +54,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.44530606269836426
-      y: 0.22268210351467133
-      z: 0.677243709564209
+      x: 0.44539615511894226
+      y: 0.2226555496454239
+      z: 0.6778099536895752
   place_pose:
     orientation:
       w: 0

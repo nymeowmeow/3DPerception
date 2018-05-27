@@ -1,21 +1,6 @@
 object_list:
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 8
-    - 1
-    - 0
-  - biscuits
+  object_name: biscuits
   pick_pose:
     orientation:
       w: 0
@@ -23,9 +8,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5723266005516052
-      y: -0.24781693518161774
-      z: 0.7064293622970581
+      x: 0.5722522735595703
+      y: -0.2492208331823349
+      z: 0.7052425742149353
   place_pose:
     orientation:
       w: 0
@@ -38,22 +23,7 @@ object_list:
       z: 0.605
   test_scene_num: 2
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - book
+  object_name: book
   pick_pose:
     orientation:
       w: 0
@@ -61,9 +31,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5812662839889526
-      y: 0.2784814238548279
-      z: 0.721809446811676
+      x: 0.5809341669082642
+      y: 0.2787231206893921
+      z: 0.7221066951751709
   place_pose:
     orientation:
       w: 0
@@ -76,22 +46,7 @@ object_list:
       z: 0.605
   test_scene_num: 2
 - arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S4
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 4
-    - 1
-    - 0
-  - soap
+  object_name: soap
   pick_pose:
     orientation:
       w: 0
@@ -99,9 +54,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.5616706609725952
-      y: 0.003952993545681238
-      z: 0.6761395335197449
+      x: 0.5607588291168213
+      y: 0.003049140563234687
+      z: 0.6756472587585449
   place_pose:
     orientation:
       w: 0
@@ -114,22 +69,7 @@ object_list:
       z: 0.605
   test_scene_num: 2
 - arm_name: left
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S5
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 5
-    - 1
-    - 0
-  - soap2
+  object_name: soap2
   pick_pose:
     orientation:
       w: 0
@@ -137,9 +77,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.4454193711280823
-      y: 0.22694501280784607
-      z: 0.6763829588890076
+      x: 0.44508692622184753
+      y: 0.22669711709022522
+      z: 0.676897406578064
   place_pose:
     orientation:
       w: 0
@@ -151,23 +91,8 @@ object_list:
       y: 0.71
       z: 0.605
   test_scene_num: 2
-- arm_name: right
-  object_name: !!python/object/apply:numpy.core.multiarray.scalar
-  - !!python/object/apply:numpy.dtype
-    args:
-    - S8
-    - 0
-    - 1
-    state: !!python/tuple
-    - 3
-    - '|'
-    - null
-    - null
-    - null
-    - 8
-    - 1
-    - 0
-  - biscuits
+- arm_name: left
+  object_name: glue
   pick_pose:
     orientation:
       w: 0
@@ -175,9 +100,9 @@ object_list:
       y: 0
       z: 0
     position:
-      x: 0.6312973499298096
-      y: 0.13013522326946259
-      z: 0.6807391047477722
+      x: 0.6316024661064148
+      y: 0.131120502948761
+      z: 0.6800798177719116
   place_pose:
     orientation:
       w: 0
@@ -186,6 +111,6 @@ object_list:
       z: 0
     position:
       x: 0
-      y: -0.71
+      y: 0.71
       z: 0.605
   test_scene_num: 2
