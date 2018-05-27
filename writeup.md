@@ -43,7 +43,7 @@ The goal for exercise 1, is to separate the image of table containing various ob
 
 The image often has distortion due to noise and lead to complications in estimation. So, we apply statistical outlier filter to filter unwanted noise. (see diagram below taking from the course note, illustrating the effect on applying the filter)
 
-![noisefiltering](./image/noisefiltering.png)
+![noisefiltering](./image/noisefiltering.PNG)
 
 The original table top image is captured by RGB-D camera, which provide feature rich and particularly dense point clouds. So, we apply a vox downsampler filter to derive a point cloud that has fewer points but should still do a good job of representing the input point cloud as a whole. A leaf size of 0.01
 seems to be a good value for the image
@@ -81,7 +81,7 @@ The accuracy is around 78% using HSV, and 128 bins when i generate the features.
 
 and an example of the objects it recognize in the image is as follows
 
-![recognition](./image/recognition.png)
+![recognition](./image/recognition.PNG)
 
 ### Pick and Place Setup
 
@@ -99,7 +99,7 @@ AccuracyL 0.96 (+/- 0.03)
 
 Accuracy score: 0.9596662306
 
-![normalizedconfusionmatrix](./image/normalizedconfusionmatrix.png)
+![normalizedconfusionmatrix](./image/normalizedconfusionmatrix.PNG)
 #### 1. For all three tabletop setups (`test*.world`), perform object recognition, then read in respective pick list (`pick_list_*.yaml`). Next construct the messages that would comprise a valid `PickPlace` request output them to `.yaml` format.
 
 
