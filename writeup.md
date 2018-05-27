@@ -133,7 +133,7 @@ model is able to detect the following
 - eraser
 - soap2
 - sticky_notes
-- snack (*)
+- snack (*, it should be glue instead)
 
 it is not able to detect glue in this case.
 
