@@ -91,7 +91,7 @@ Having go through exercise 1-3, the task now is to have pr2 robot to identify th
 
 ![demo-2](https://user-images.githubusercontent.com/20687560/28748286-9f65680e-7468-11e7-83dc-f1a32380b89c.png)
 
-The model was trained by specifying using svm kernal = linear, hsv, 128 bins, and 180 samples per model. The resulting precisin and confusion matrix is as follows
+The model was trained by specifying using svm kernal = linear, hsv, 128 bins, and 180 samples per model. The resulting precision and confusion matrix is as follows
 
 scores: [ 0.97569444 0.96180556 0.96875 0.93728223 0.95470383]
 
@@ -112,6 +112,8 @@ model is able to detect the following
 
 matching the actual list of objects
 
+![scenario1](./image/scenario1.PNG)
+
 ### for test scenario 2 ###
 
 model is able to detect the following
@@ -122,6 +124,8 @@ model is able to detect the following
 - glue
 
 matching the actual list of objects
+
+![scenario2](./image/scenario2.PNG)
 
 ### for test scenario 3 ###
 
@@ -136,6 +140,8 @@ model is able to detect the following
 - snack (*, it should be glue instead)
 
 it is not able to detect glue in this case.
+
+![scenario3](./image/scenario3.PNG)
 
 #### 2. Spend some time at the end to discuss your code, what techniques you used, what worked and why, where the implementation might fail and how you might improve it if you were going to pursue this project further. ####
 
